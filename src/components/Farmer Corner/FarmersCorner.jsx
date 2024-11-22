@@ -4,7 +4,7 @@ const FarmersCorner = () => {
   return (
     <div>
       <div>
-        <h1>Farmer's Corner</h1>
+        <h1>Farmer Corner</h1>
       </div>
     </div>
   )
