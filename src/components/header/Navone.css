@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sec-one {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+.gmail-id {
+  margin-left: 35px;
+}
+.mail,
+.phono {
+  color: #c6df3d;
+}
+.phono {
+  margin-left: 20px;
+}
+
+.social-icons {
+  margin-left: 260px;
+}
+.fb-icon:hover {
+  color: #c6df3d;
+}
+.insta-icon:hover {
+  color: #c6df3d;
+}
+.youtube-icon:hover {
+  color: #c6df3d;
+}
+.linkedin-icon:hover {
+  color: #c6df3d;
+}
+
+.fb-icon,
+.insta-icon,
+.youtube-icon,
+.linkedin-icon {
+  color: darkgray;
+  font-size: 18px;
+}
+
+.sec-one .inner-sec .g-mail,
+.sec-one .inner-sec .pho-no {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*google-font*/
+
+.gmail-id {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #ffffffb3;
+  font-weight: 500;
+  font-size: 14px;
+  color: gainsboro;
+}
+
+@media (max-width: 992px) {
+  .sec-one .inner-sec .g-mail,
+  .sec-one .inner-sec .pho-no {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px; /* Optional: Reduce the right margin */
+  }
+
+  .sec-one .inner-sec .g-mail {
+    margin-bottom: 10px; /* Reduce space between email and phone */
+  }
+}
+
+/* Mobile view adjustments */
+@media (max-width: 576px) {
+  .sec-one .inner-sec .g-mail,
+  .sec-one .inner-sec .pho-no {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 5px;
+  }
+  /* Center align the text on mobile */
+  .sec-one .inner-sec .g-mail,
+  .sec-one .inner-sec .pho-no {
+    text-align: center;
+  }
+}
